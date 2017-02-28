@@ -2,25 +2,6 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-.logo {
-    padding: 1rem;
-    img {
-        width: 3rem;
-    } 
-}
-
-.navRow {
-    display: flex;
-    align-items: center;
-}
-
-nav {
-    ul {
-        display: flex;
-        justify-content: space-around;
-    }
-}
-
 .section1 {
     position: relative;
     display: flex;
@@ -29,5 +10,6 @@ nav {
     height: 90vh;
     
 }
+
 
 
