@@ -28,6 +28,7 @@ nav {
     padding: 0 15px;
 }
 
+
 @media(min-width:768px) {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
@@ -40,7 +41,7 @@ nav {
 
 @media(max-width:750px) {
     .navbar-header a {
-        transform: scale(0.7);
+        transform: scale(0.6);
     }
 }
 
