@@ -1,10 +1,4 @@
-jQuery(document).ready(function(){
-
-    $('.carousel').carousel({
-        interval: 4000
-    });
-    
-    
+jQuery(document).ready(function(){    
     
     jQuery(function ($) {
         function init_map1() {
