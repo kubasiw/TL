@@ -4,20 +4,13 @@ body {
 
 
 .section1, .sectionAbout {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+    height: 100vh;
     
 }
 
-.sectionAbout div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.sectionAbout {
+    background-color: #292b2c;
+    color: white;
 }
 
 .map {
