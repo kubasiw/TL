@@ -8,14 +8,13 @@ body {
 
 
 .section1, .sectionAbout {
-    height: 100vh;
-    
+    min-height: 100vh;
 }
 
 .sectionAbout {
     background-color: #758188;
     color: white;
-    font-size: 2.5rem;
+    font-size: 130%;
     line-height: 3rem;
     font-weight: 300;
     div:first-child {
@@ -33,6 +32,12 @@ body {
     span:last-child {
         color: blue;
         font-weight: 700;
+    }
+    img {
+        width: 30%;
+    }
+    ul {
+        color: black;
     }
 }
 

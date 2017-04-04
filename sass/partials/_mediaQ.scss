@@ -1,18 +1,21 @@
 @media (max-width: 1100px) {
   .sectionAbout {
-    font-size: 2rem;
+    //font-size: 2rem;
       line-height: 2rem; 
       h4 {
-          font-size: 2.2rem;
+          //font-size: 2.2rem;
       }
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 720px) {
   .sectionAbout {
-    font-size: 1.7rem;
+    //font-size: 1.7rem;
       h4 {
-          font-size: 2rem;
+          //ont-size: 2rem;
+      }
+      img {
+          transform: rotate(0deg);
       }
   }
 }
@@ -20,27 +23,27 @@
 
 @media (max-width: 420px) {
   .sectionAbout {
-    font-size: 1.2rem;
+    //font-size: 1.2rem;
       h4 {
-          font-size: 1.6rem;
+          //font-size: 1.6rem;
       }
   }
 }
 
 @media (max-width: 330px) {
   .sectionAbout {
-    font-size: 1rem;
+    //font-size: 1rem;
       h4 {
-          font-size: 1.6rem;
+          //font-size: 1.6rem;
       }
   }
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
     .sectionAbout {
-        font-size: 1rem;
+        //font-size: 1rem;
             h4 {
-              font-size: 1.3rem;
+              //font-size: 1.3rem;
             }
         }
 }
