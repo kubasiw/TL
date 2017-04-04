@@ -9,15 +9,15 @@ body {
 }
 
 
-.section1, .sectionAbout {
+.section1, .sectionAbout, .contact {
     min-height: 100vh;
 }
 
 .sectionAbout {
     background-color: #758188;
     color: white;
-    font-size: 130%;
-    line-height: 3rem;
+    font-size: 1.5em;
+    line-height: 1.5em;
     font-weight: 300;
     div:first-child {
         padding: 0.5rem;
@@ -48,10 +48,9 @@ body {
 }
 
 .contact {
-    min-height: 90vh;
-    line-height: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    line-height: 2em;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
 .footerRow {
