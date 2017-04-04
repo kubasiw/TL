@@ -21,14 +21,7 @@
 }
 
 
-@media (max-width: 420px) {
-  .sectionAbout {
-    //font-size: 1.2rem;
-      h4 {
-          //font-size: 1.6rem;
-      }
-  }
-}
+
 
 @media (max-width: 640px) and (orientation: landscape) {
     .sectionAbout {
@@ -39,15 +32,35 @@
         }
 }
 
-@media (max-width: 330px) {
-  .sectionAbout {
-    //font-size: 1rem;
-      h4 {
+@media (max-width: 420px) {
+    .sectionAbout {
+    //font-size: 1.2rem;
+        h4 {
           //font-size: 1.6rem;
-      }
-  }
-    .footerRow a {
-        font-size: 1em;
+        }
     }
+    .footerRow a {
+        font-size: 0.6em;
+    }
+}
 
+@media (max-width: 360px) {
+    .sectionAbout {
+    //font-size: 1.2rem;
+        h4 {
+          //font-size: 1.6rem;
+        }
+    }
+    .footerRow a {
+        font-size: 0.5em;
+    }
+}
+
+@media (max-width: 330px) {
+    .sectionAbout {
+    //font-size: 1rem;
+        h4 {
+          //font-size: 1.6rem;
+        }
+    }
 }
