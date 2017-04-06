@@ -9,35 +9,48 @@ body {
 }
 
 
-.section1, .sectionAbout, .contact {
+.section1, .sectionAbout, .sectionOffer {
     min-height: 100vh;
 }
 
 .sectionAbout {
-    background-color: #758188;
-    color: white;
-    font-size: 1.5em;
-    line-height: 1.5em;
+    background-color: #212121;
+    color: #c1c1c1;
+    font-size: 1.2em;
+    line-height: 1.2em;
     font-weight: 300;
     div:first-child {
         padding: 0.5rem;
     }
     h4 {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 400;
         margin-bottom:1.5rem;
+        line-height: 1.2em;
     }
-    p span {
-        color: #65355d;
-        font-weight: 900;
+    p {
+        text-align: justify;
+        span {
+            color: #65355d;
+            font-weight: 900;
+        }
     }
-    img {
+    .scissors {
         width: 30%;
+        padding-bottom: 1em;
     }
     ul {
         font-weight: 900;
         color: black;
     }
+}
+
+.sectionOffer {
+    background-color: #525252;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 300;
 }
 
 .map {
@@ -51,6 +64,7 @@ body {
     line-height: 2em;
     padding-top: 1em;
     padding-bottom: 3em;
+    min-height: 70vh;
 }
 
 .footerRow {
