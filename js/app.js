@@ -5,7 +5,7 @@ jQuery(document).ready(function(){
             var myLocation = new google.maps.LatLng(51.818301, 19.420385);
             var mapOptions = {
                 center: myLocation,
-                zoom: 17
+                zoom: 18
             };
             var marker = new google.maps.Marker({
                 position: myLocation,
@@ -21,6 +21,7 @@ jQuery(document).ready(function(){
     function lookForSection(){
         
         var menu1 = jQuery('.menu1');
+        var menu1 = jQuery('.menu2');
         var menu3 = jQuery('.menu3');
         
         menu1.on('click', function(){          // while clicking on a circle

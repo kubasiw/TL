@@ -20,37 +20,6 @@
   }
 }
 
-@media (max-width: 640px) {
-    .sectionOffer {
-        h3 {
-            font-size: 0.8em;
-        }
-        img {
-            width: 30%;
-        }
-    }
-}
-
-@media (max-width: 577px) {
-    .sectionOffer {
-        h3 {
-            font-size: 0.6em;
-        }
-        img {
-            width: 50%;
-        }
-    }
-}
-
-
-@media (max-width: 640px) and (orientation: landscape) {
-    .sectionOffer {
-        img {
-            width: 100px;
-        }
-    }
-}
-
 @media (max-width: 420px) {
     .sectionAbout {
     //font-size: 1.2rem;
