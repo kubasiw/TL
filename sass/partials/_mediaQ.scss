@@ -20,16 +20,35 @@
   }
 }
 
+@media (max-width: 640px) {
+    .sectionOffer {
+        h3 {
+            font-size: 0.8em;
+        }
+        img {
+            width: 30%;
+        }
+    }
+}
 
+@media (max-width: 577px) {
+    .sectionOffer {
+        h3 {
+            font-size: 0.6em;
+        }
+        img {
+            width: 50%;
+        }
+    }
+}
 
 
 @media (max-width: 640px) and (orientation: landscape) {
-    .sectionAbout {
-        //font-size: 1rem;
-            h4 {
-              //font-size: 1.3rem;
-            }
+    .sectionOffer {
+        img {
+            width: 100px;
         }
+    }
 }
 
 @media (max-width: 420px) {
