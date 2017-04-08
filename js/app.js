@@ -1,5 +1,7 @@
 jQuery(document).ready(function(){    
     
+    
+    // function for google maps
     jQuery(function ($) {
         function init_map1() {
             var myLocation = new google.maps.LatLng(51.818301, 19.420385);
@@ -21,22 +23,30 @@ jQuery(document).ready(function(){
     function lookForSection(){
         
         var menu1 = jQuery('.menu1');
-        var menu1 = jQuery('.menu2');
+        var menu2 = jQuery('.menu2');
         var menu3 = jQuery('.menu3');
         
-        menu1.on('click', function(){          // while clicking on a circle
-            var id = jQuery(this).attr('href');  // id will get href from circA
-            var elemOffset = jQuery(id).offset(); // elemOffset will find element with same id as button href and get offset
+        menu1.on('click', function(){          // while clicking on <a>
+            var id = jQuery(this).attr('href');  // id will get href
+            var elemOffset = jQuery(id).offset(); // elemOffset will find element with same id as <a> href and get offset
             
-            jQuery('html, body').animate({scrollTop: elemOffset.top},500);
+            jQuery('html, body').animate({scrollTop: elemOffset.top},700);
 
         });
         
-        menu3.on('click', function(){          // while clicking on a circle
-            var id = jQuery(this).attr('href');  // id will get href from circA
-            var elemOffset = jQuery(id).offset(); // elemOffset will find element with same id as button href and get offset
+        menu2.on('click', function(){          // while clicking on <a>
+            var id = jQuery(this).attr('href');  // id will get href
+            var elemOffset = jQuery(id).offset(); // elemOffset will find element with same id as <a> href and get offset
             
-            jQuery('html, body').animate({scrollTop: elemOffset.top},500);
+            jQuery('html, body').animate({scrollTop: elemOffset.top},700);
+
+        });
+        
+        menu3.on('click', function(){          // while clicking on <a>
+            var id = jQuery(this).attr('href');  // id will get href
+            var elemOffset = jQuery(id).offset(); // elemOffset will find element with same id as <a> href and get offset
+            
+            jQuery('html, body').animate({scrollTop: elemOffset.top},700);
 
         });
     };
