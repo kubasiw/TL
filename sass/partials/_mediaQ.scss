@@ -20,6 +20,12 @@
   }
 }
 
+@media (max-width: 720px) and (landscape){
+    .flash img {
+        transform: scale(0.8);
+    }
+}
+
 @media (max-width: 420px) {
     .sectionAbout {
     //font-size: 1.2rem;
