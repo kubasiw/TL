@@ -52,6 +52,16 @@ jQuery(document).ready(function(){
     };
     lookForSection();
     
+    function blink() {
+        jQuery('.flash').hide();
+
+        setInterval(function(){
+            jQuery('.flash').fadeIn(800).fadeOut(800);
+        },0);
+        
+    };
+    blink();
+    
     
     
     
