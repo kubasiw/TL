@@ -9,7 +9,12 @@
 }
 
 @media (max-width: 720px) {
-  .sectionAbout {
+    .section1 span {
+        img {
+            height:20px;
+        }
+    }
+    .sectionAbout {
     //font-size: 1.7rem;
       h4 {
           //ont-size: 2rem;
@@ -17,12 +22,6 @@
       img {
           transform: rotate(0deg);
       }
-  }
-}
-
-@media (max-width: 720px) and (landscape){
-    .flash img {
-        transform: scale(0.8);
     }
 }
 
