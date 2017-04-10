@@ -12,11 +12,11 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
         integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        
-        
     </head>
     <body>
-    <section>
+    
+    <!-- header / navigation -->
+    <header>
         <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,10 +32,11 @@
                 </div>
             </div>
         </nav>
-    </section>
-
+    </header>
     
-    <section class="container-fluid d-flex flex-column justify-content-center align-items-center section1">
+    <!-- welcome section -->
+    
+    <section class="container-fluid d-flex flex-column justify-content-center align-items-center sectionWelcome">
         <div class="row">
             <div class="col d-flex aign-items-center">
                 <div><img class="img-fluid" src="./images/pracownia.png" alt=""></div>
@@ -43,7 +44,8 @@
         </div>
         <span class="flash menu1" href="#aboutUs"><img class="img-fluid" src="./images/scisorsCartoon-small.png" alt=""></span>
     </section>
-
+    
+    <!-- sectionAbout -->
 
     <section class="container-fluid d-flex flex-column align-items-center justify-content-center sectionAbout" id="aboutUs">
         <div class="row d-flex justify-content-center">
@@ -67,12 +69,15 @@
         </div>
     </section>
     
-    <section class="sectionNarrow">
+    <!-- sectionNarrow -->
+    
+    <section>
         <div>
             <img class="img-fluid" src="./images/windowNarrow.jpg" alt="">
         </div>
     </section>
     
+    <!-- sectionOffer -->
     
     <section class="container-fluid d-flex flex-column justify-content-center sectionOffer" id="offer">
         <div class="row d-flex justify-content-center">
@@ -104,7 +109,9 @@
         </div>
     </section>
     
-       <section class="container-fluid d-flex flex-column justify-content-center contact" id="contactUs">
+    <!-- contact -->
+    
+    <section class="container-fluid d-flex flex-column justify-content-center contact" id="contactUs">
         <div class="row justify-content-center">
             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 d-flex justify-content-center">
                 <div class="d-flex flex-column align-items-center justify-content-center">
@@ -128,7 +135,9 @@
             </div>
         </div>
     </section>
-    <!--Footer-->
+    
+    <!-- footer -->
+    
     <footer class="container-fluid">
         <div class="row footerRow">
             <div class="col-2 d-flex align-items-center">
@@ -143,8 +152,10 @@
       
        <!-- firstly we have to add jquery and than bootstrap, because bootstrap requires jquery -->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" 
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP-uIbwkZqza2biHBo4re8shmCsx_JmJ8&callback=myMap"></script>
         <script src="js/app.js"></script>
+        
     </body>

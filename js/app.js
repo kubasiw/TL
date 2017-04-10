@@ -3,21 +3,17 @@ jQuery(document).ready(function(){
     
     // function for google maps
     jQuery(function ($) {
-        function init_map1() {
+        function my_map() {
             var myLocation = new google.maps.LatLng(51.818301, 19.420385);
             var mapOptions = {
                 center: myLocation,
                 zoom: 18
             };
-            var marker = new google.maps.Marker({
-                position: myLocation,
-                title: "Property Location"
-            });
             var map = new google.maps.Map(document.getElementById("map1"),
                 mapOptions);
-            marker.setMap(map);
+//            marker.setMap(map);
         }
-        init_map1();
+        my_map();
     });
     
     function lookForSection(){
