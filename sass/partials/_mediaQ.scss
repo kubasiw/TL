@@ -1,19 +1,11 @@
-@media (max-width: 1100px) and (landscape) {
-    .sectionAbout {
-        font-size: 200%;
-        line-height: 2rem; 
-    }
-}
-
-@media (max-width: 780px) and (landscape) {
-    .sectionWelcome {
-        div {
-            img {
-                width:60%;
-            }
-        }
-    }
-}
+//@media (max-width: 780px) and (orientation:landscape) {
+//    .sectionWelcome {
+//        div {
+//            width:50%;
+//            height:50%;
+//        }
+//    }
+//}
 
 @media (max-width: 720px) {
     .section1 span {
