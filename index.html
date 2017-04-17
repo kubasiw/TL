@@ -36,13 +36,18 @@
     
     <!-- welcome section -->
     
-    <section class="container-fluid d-flex flex-column justify-content-center align-items-center sectionWelcome">
-        <div class="row">
-            <div class="col d-flex aign-items-center">
+    <section class="container-fluid d-flex flex-column justify-content-between align-items-center sectionWelcome">
+        <div class="row flex-column justify-content-center align-items-center" style="margin-top:100px;">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5 d-flex align-items-center">
+                <div><img class="img-fluid" src="./images/logoBigRed.png" alt=""></div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-7 col-8 d-flex align-items-center">
                 <div><img class="img-fluid" src="./images/pracownia.png" alt=""></div>
             </div>
         </div>
-        <span class="flash menu1" href="#aboutUs"><img class="img-fluid" src="./images/scisorsCartoon-small.png" alt=""></span>
+        <div class="row flex-column justify-content-center align-items-center">
+            <span class="flash menu1" href="#aboutUs"><img class="img-fluid" src="./images/scisorsCartoonSmallVertical.png" alt=""></span>
+        </div>
     </section>
     
     <!-- sectionAbout -->
@@ -50,11 +55,11 @@
     <section class="container-fluid d-flex flex-column align-items-center justify-content-center sectionAbout" id="aboutUs">
         <div class="row d-flex justify-content-center">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-flex flex-column align-items-center justify-content-center">
-                <h4 class="align-self-start">Jesteśmy z Państwem niemal 20 lat!</h4>
+                <h4 style="margin-top: 50px;">Jesteśmy z Państwem niemal 20 lat!</h4>
                 <img class="img-fluid scissors" src="./images/scisorsCartoon.png" alt="">
                 <p>
                     Przez cały ten czas byliście dla nas najważniejsi.
-                    Zczynaliśmy skromnie a obecnie możemy pochwalić się
+                    Zaczynaliśmy skromnie a obecnie możemy pochwalić się
                     szerokim gronem zadowolonych i zawsze powracających
                     klientów. W 2016 roku otworzyliśmy dla Państwa
                     nowy salon, w którym będziemy mogli proponować usługi
@@ -82,7 +87,7 @@
     <section class="container-fluid d-flex flex-column justify-content-center sectionOffer" id="offer">
         <div class="row d-flex justify-content-center">
             <div class="col-10">
-                <h4>Oferujemy</h4>
+                <h4 style="margin-top: 50px;">Oferujemy</h4>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -112,7 +117,7 @@
     <!-- contact -->
     
     <section class="container-fluid d-flex flex-column justify-content-center contact" id="contactUs">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" style="margin-top: 60px;">
             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 d-flex justify-content-center">
                 <div class="d-flex flex-column align-items-center justify-content-center">
                     <span><img class="img-fluid" src="./images/logoSmall.png" alt=""></span>
@@ -159,3 +164,4 @@
         <script src="js/app.js"></script>
         
     </body>
+</html>

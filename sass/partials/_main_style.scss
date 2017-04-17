@@ -11,11 +11,13 @@ body {
     min-height: 100vh;
 }
 
-.sectionWelcome span {
-    position: absolute;
-    bottom: 8%;
-    cursor: pointer;
-    transform: rotate(-90deg);
+.sectionWelcome {
+    span {
+        cursor: pointer;
+    }
+        img {
+            padding: 0.5em;
+        }
 }
 
 /* for section1 welcome blinking scissors/arrow */
