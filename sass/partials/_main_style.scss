@@ -1,6 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     min-width: 260px;
+        a {
+            text-decoration: none;
+            font-size: 0.8em;
+            color: #9d9d9d;
+        }
 }
 
 .navbar {
@@ -101,15 +106,22 @@ body {
     }
 }
 
+a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #9d9d9d;
+}
+
 .footerRow {
     min-height: 10vh;
     background-color: #222222;
-    a {
-        text-decoration: none;
-        font-size: 0.8em;
-        color: #9d9d9d;
-    }
+        span a {
+            text-decoration: none;
+            font-size: 0.8em;
+            color: #9d9d9d;
+        }
 }
+
 
 
 
