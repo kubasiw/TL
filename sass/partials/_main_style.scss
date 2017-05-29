@@ -70,6 +70,7 @@ body {
     font-size: 1.2em;
     line-height: 1.2em;
     font-weight: 300;
+    padding: 1em;
     h4 {
         font-size: 1.8em;
         font-weight: 400;
@@ -85,8 +86,24 @@ body {
         margin-bottom:0.5em;
         border: 0.3rem solid white;
     }
-    
 }
+
+.price {
+    position: absolute;
+    bottom:2rem;
+    left:2rem;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    cursor: pointer;
+}
+
+.sectionPricesHair {
+    display: none;
+    background-color: #292b2c;
+    color: aliceblue;
+}
+
 
 /* google maps */
 .map {

@@ -7,11 +7,17 @@ jQuery(document).ready(function(){
             var myLocation = new google.maps.LatLng(51.818301, 19.420385);
             var mapOptions = {
                 center: myLocation,
-                zoom: 18
+                zoom: 17
             };
+            
             var map = new google.maps.Map(document.getElementById("map1"),
                 mapOptions);
-//            marker.setMap(map);
+            
+            var marker = new google.maps.Marker({
+              position: myLocation,
+              map: map
+            });
+            marker.setMap(map);
         }
         my_map();
     });
@@ -57,6 +63,12 @@ jQuery(document).ready(function(){
         
     };
     blink();
+    
+    function priceOpen() {
+        var priceButton1 = jQuery('.price:nth-of-type(1)');
+        console.log(priceButton1);
+    }
+    priceOpen();
     
     
     
