@@ -65,8 +65,19 @@ jQuery(document).ready(function(){
     blink();
     
     function priceOpen() {
-        var priceButton1 = jQuery('.price:nth-of-type(1)');
-        console.log(priceButton1);
+        var priceButton1 = jQuery('.priceButton1');
+        var hairPrices = jQuery('.sectionPricesHair');
+        
+        priceButton1.on('click', function() {
+            
+            if (hairPrices.hasClass('open') === true) {
+                hairPrices.slideUp(500);
+                hairPrices.removeClass('open');
+            } else {
+                hairPrices.slideDown(500);
+                hairPrices.addClass('open')
+            };
+        });
     }
     priceOpen();
     
