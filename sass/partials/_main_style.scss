@@ -97,10 +97,35 @@ body {
     cursor: pointer;
 }
 
+.priceButton1 {
+    color: #dcdcdc;
+}
+
 .sectionPricesHair {
     display: none;
+    padding-top:4rem;
+    padding-bottom:1rem;
     background-color: #292b2c;
-    color: aliceblue;
+    color: #dcdcdc;
+}
+
+.sectionPricesCosme {
+    display: none;
+    padding-top:4rem;
+    padding-bottom:1rem;
+    background-color: #292b2c;
+    color: #dcdcdc;
+}
+
+
+
+.on {
+    color: #ed1c24;
+    transition: 1000ms;
+}
+
+i {
+    cursor: pointer;
 }
 
 
